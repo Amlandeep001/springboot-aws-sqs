@@ -10,9 +10,9 @@
     </parent>
     <groupId>com.example</groupId>
     <artifactId>spring-aws-sqs</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>spring-aws-sqs</name>
-    <description>spring-aws-sqs</description>
+    <description>Spring Boot Demo project for integrating with AWS SQS</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -43,6 +43,7 @@
     </dependencies>
 
     <build>
+		<finalName>spring-aws-sqs</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
